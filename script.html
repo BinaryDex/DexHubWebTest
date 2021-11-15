@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700">
+    <link rel="stylesheet" href="assets/css/Button-Change-Text-on-Hover.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: #00334c;color: rgb(255,255,255);">
+    <div class="d-xl-flex align-self-center justify-content-xl-center align-items-xl-end" style="height: 188px;width: 100%;">
+        <h1 class="d-xl-flex justify-content-xl-center align-items-xl-center" style="color: var(--bs-blue);">DEX</h1>
+        <h1 class="d-xl-flex justify-content-xl-center align-items-xl-center tada animated">HUB</h1>
+    </div>
+    <div class="d-xl-flex justify-content-center align-items-xl-center" style="height: 82px;width: 100%;"><input type="text" id="script" readonly="" value="loadstring(game:HttpGet'https://dexhub.xyz/loader.lua')()" style="width: 415px;height: 38px;">
+        <div style="width: 6px;"></div><button onclick="copyscript()" class="btn btn-primary pulse animated infinite" type="button" style="width: 65.3438px;">COPY</button>
+        <div style="width: 6px;"></div><a class="btn btn-primary text-uppercase" role="button" style="box-shadow: 0px 0px;width: 93.3125px;" href="index.html">home</a>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+<script>
+function copyscript() {
+  var copyText = document.getElementById("script");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+}
+</script>
+</body>
+
+</html>
