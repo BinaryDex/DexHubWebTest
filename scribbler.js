@@ -13,14 +13,10 @@ var getAll = function (selector, scope) {
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
   var txt = `scribbler
-            [Entry mode; press Ctrl+D to save and quit; press Ctrl+C to quit without saving]
+            print("DexHub, Mediocre Script Hub")
 
-            ###todo for new year dinner party
-
-            - milk
-            - butter
-            - green onion
-            - lots and lots of kiwis 🥝`;
+            warn("Injected")
+            print("8 Games");
   var speed = 60;
 
   function typeItOut () {
