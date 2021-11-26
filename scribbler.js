@@ -12,7 +12,7 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `scribbler
+  var txt = `dexhub
             print("DexHub, Mediocre Script Hub")
 
             warn("Injected")
