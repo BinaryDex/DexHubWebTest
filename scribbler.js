@@ -16,7 +16,9 @@ if (document.getElementsByClassName('demo').length > 0) {
             print("DexHub, Mediocre Script Hub")
 
             warn("Injected")
-            print("8 Games")`;
+            print("8 Executable Games")
+
+            print("discord.io/dexhub")`;
   var speed = 60;
 
   function typeItOut () {
