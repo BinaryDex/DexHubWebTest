@@ -33,9 +33,17 @@
     </div>
     <div class="wrapper">
       <div class="installation">
-        <h3 class="section__title">Loadstring</h3>
+        <h3 class="section__title">Download</h3>
+        <div class="tab__container">
+          <ul class="tab__menu">
+            <li class="tab active" data-tab="lua">lua</li>
+            <li class="tab" data-tab="scriptware">script-ware</li>
+            <li class="tab" data-tab="raw">raw</li>
+          </ul>
           <pre class="nohighlight code">
-            <code class="">loadstring(game:HttpGet("https://dexhub.xyz/loader.lua", true))()</code>
+            <code class="tab__pane active lua">loadstring(game:HttpGet("https://dexhub.xyz/loader.lua", true))()</code>
+            <code class="tab__pane scriptware">https://dashboard.script-ware.com/catalogue?scriptID=1667</code>
+            <code class="tab__pane raw">https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init</code>
           </pre>
         </div>
       </div>
