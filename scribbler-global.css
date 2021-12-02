@@ -1,7 +1,7 @@
 /* css variables*/
 :root {
   --primary-color: #432E30;
-  --primary-color-light: #8E7474;
+  --primary-color-light: #F8F8FA;
   --accent-color: #FE6A6B;
   --accent-color-light: #FFE4E4;
   --accent-color-dark: #B94B4C;
@@ -9,7 +9,7 @@
   --light-gray-color: #C6CBD1;
   --medium-gray-color: #959DA5;
   --dark-gray-color: #444D56; 
-  --bg-color: #F8F8FA;
+  --bg-color: #1A1D1E;
   --code-bg-color: #F0E8E8;
 }
 
